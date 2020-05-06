@@ -1,0 +1,14 @@
+{% extends 'mydog/main_page.html' %}
+
+{% block content %}
+
+    {% for i in dogImage %}
+        <div>
+            <p>name: {{ i.title }}</p>
+            <img class="dogimage" src="{{ i.image.url }}"/>
+        </div>
+    {% endfor %}
+
+{% end block %}
+
+

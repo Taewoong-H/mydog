@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>나에게 맞는 강아지는?</title>
+</head>
+<body>
+    <div class="title-box">
+        <h1 class="title">나와 맞는 강아지 찾기</h1>
+        <h4 class="content">내가 키우고 싶은 강아지는 무슨 종류일지 찾아줄게요</h4>
+        <button class="btn">시작하기</button>
+    </div>
+    <div class="question1 blocking">
+        <div class="container">
+            <h1 class="top">질문1</h1>
+            <div class="left">
+                <form class="js-btn1">
+                    <button class="btn-1" id="btn1">귀여운거?</button>
+                </form>
+            </div>
+            <div class="right">
+                <form class="js-btn2">
+                    <button class="btn-2" id="btn2">늠름한거?</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="question2 blocking">
+        <div class="container">
+            <h1 class="top">질문2</h1>
+            <div class="left">
+                <form class="js-btn3">
+                    <button type="submit" class="btn-1" id="btn3">순종적인?</button>
+                </form>
+            </div>
+            <div class="right">
+                <form class="js-btn4">
+                    <button type="submit" class="btn-2" id="btn4">자유분방한?</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class ="result blocking">
+        <div class="container">
+            <h1 class="top">결과</h1>
+            <div class="left" id="result-img">
+            </div>
+            <div class="right">
+            </div>
+        </div>
+    </div>
+    <script src="secondquestion.js"></script>
+    <script src="firstquestion.js"></script>
+    <script src="startform.js"></script>
+</body>
+</html>
